@@ -2,7 +2,7 @@ import os
 import yt_dlp
 from telegram.ext import Application, MessageHandler, filters, CommandHandler
 
-TOKEN = os.getenv("7950096945:AAF8fZPhqNcyKaJ8rq_cQ3xiMZ6OhFl66xA")
+TOKEN = os.getenv("TELEGRAM_BOT_TOKEN")
 
 app = Application.builder().token(TOKEN).build()
 
